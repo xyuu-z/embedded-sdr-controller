@@ -103,20 +103,27 @@ The firmware was designed to provide responsive user interaction while maintaini
 
 ## Testing Result
 
-> *(Insert GIF or short video demonstrating frequency adjustment and LCD updates.)*
+Amplitude_balance
+![amp](image/amplitude_balance.png)
+
+Frequency output
+![freq_out](image/freq_output.png)
+
+Frequency error
+![freq_error](image/freq_err.png)
+
+Phase shift
+![phase](image/phase.png)
 
 ---
 
-## Skills Demonstrated
+## Demo
 
-- Embedded Systems
-- Embedded C
-- PCB Design
-- Altium Designer
-- Hardware Assembly
-- I²C Communication
-- Microcontroller Programming
-- Hardware Validation
+Transit Mode
+![tx](image/TX.jpg)
+
+Receive Mode
+![rx](image/RX.jpg)
 
 ---
 
@@ -128,18 +135,5 @@ It also reinforced the importance of designing hardware and firmware together as
 
 ---
 
-## Repository Contents
 
-```
-README.md
-images/
-docs/
-```
 
----
-
-## Code Availability
-
-The source code for this project is **not publicly available** due to University of Toronto academic integrity policies.
-
-This repository serves as an engineering portfolio documenting the project architecture, hardware design, and development process.
