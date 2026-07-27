@@ -62,15 +62,15 @@ The project involved the complete embedded hardware development workflow, includ
 
 ### PCB
 
-> *(Insert PCB layout screenshot)*
+![PCB](image/3dlayout.png)
 
 ### Schematic
 
-> *(Insert schematic screenshot)*
+![Sch](image/sch.png)
 
 ### Assembled Board
 
-> *(Insert photo of assembled PCB)*
+![assembled](Picture1.jpg)
 
 ---
 
