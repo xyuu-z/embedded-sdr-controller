@@ -24,7 +24,7 @@ The project involved the complete embedded hardware development workflow, includ
 - Develop embedded firmware for the ATmega324PB microcontroller
 - Configure the Si5351 frequency synthesizer via I²C
 - Display system status on a 1602 LCD
-- Enable real-time frequency adjustment from **8 MHz to 16 MHz**
+- Enable real-time frequency adjustment from 8 MHz to 16 MHz
 - Produce a manufacturable hardware design
 
 ---
@@ -70,7 +70,7 @@ The project involved the complete embedded hardware development workflow, includ
 
 ### Assembled Board
 
-![assembled](Picture1.jpg)
+![board](image/Picture1.jpg)
 
 ---
 
@@ -82,8 +82,6 @@ The firmware initializes all peripherals before entering a polling loop that con
 2. Calculates the target frequency
 3. Updates the Si5351 through I²C
 4. Refreshes the LCD display
-
-> *(Insert firmware flowchart here)*
 
 ---
 
@@ -103,7 +101,7 @@ The firmware was designed to provide responsive user interaction while maintaini
 
 ---
 
-## Demonstration
+## Testing Result
 
 > *(Insert GIF or short video demonstrating frequency adjustment and LCD updates.)*
 
