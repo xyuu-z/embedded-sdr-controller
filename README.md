@@ -89,7 +89,7 @@ The firmware initializes all peripherals before entering a polling loop that con
 
 ### Hardware Integration
 
-The project required integrating multiple peripherals—including the Si5351 frequency synthesizer, LCD, and rotary encoder—into a single embedded controller while maintaining reliable communication over I²C.
+The project required integrating multiple peripherals, including the Si5351 frequency synthesizer, LCD, and rotary encoder, into a single embedded controller while maintaining reliable communication over I²C.
 
 ### PCB Design
 
@@ -129,7 +129,7 @@ Receive Mode
 
 ## Lessons Learned
 
-This project strengthened my understanding of the complete embedded hardware development process—from schematic capture and PCB layout to firmware implementation and hardware bring-up.
+This project strengthened my understanding of the complete embedded hardware development process, from schematic capture and PCB layout to firmware implementation and hardware bring-up.
 
 It also reinforced the importance of designing hardware and firmware together as an integrated embedded system.
 
