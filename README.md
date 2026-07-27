@@ -31,21 +31,7 @@ The project involved the complete embedded hardware development workflow, includ
 
 ## System Architecture
 
-> *(Insert a system block diagram here)*
-
-```
-Rotary Encoder
-        │
-        ▼
- ATmega324PB MCU
-        │
- ┌──────┴────────┐
- ▼               ▼
-1602 LCD      Si5351
-                    │
-                    ▼
-          Downstream RF Modules
-```
+![BlockDiagram](image/blockDiagram.png)
 
 ---
 
