@@ -9,7 +9,7 @@
 
 ## Overview
 
-This project was completed as part of the University of Toronto ECE295 Engineering Design course.
+This project was completed as part of Hardware Design course.
 
 Our team designed and built the control subsystem for a software-defined radio (SDR) transceiver. The controller allows users to adjust the output frequency in real time using a rotary encoder while displaying system information on an LCD. It communicates with a Si5351 frequency synthesizer over I²C and provides control signals to downstream RF subsystems.
 
