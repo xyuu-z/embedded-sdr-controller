@@ -76,10 +76,10 @@ The project involved the complete embedded hardware development workflow, includ
 
 The firmware initializes all peripherals before entering a polling loop that continuously:
 
-1. Reads the rotary encoder
-2. Calculates the target frequency
-3. Updates the Si5351 through I²C
-4. Refreshes the LCD display
+- Reads the rotary encoder
+- Calculates the target frequency
+- Updates the Si5351 through I²C
+- Refreshes the LCD display
 
 ---
 
