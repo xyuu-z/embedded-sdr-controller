@@ -138,9 +138,9 @@ Receive Mode
 
 ## Lessons Learned
 
-This project strengthened my understanding of the complete embedded hardware development process, from schematic capture and PCB layout to firmware implementation and hardware bring-up.
+This project provided hands-on experience across the complete embedded hardware development workflow, including schematic design, PCB layout, design rule verification, firmware development, PCB assembly, and hardware validation.
 
-It also reinforced the importance of designing hardware and firmware together as an integrated embedded system.
+The project also highlighted the importance of considering hardware and firmware as a unified system rather than independent components. Successful integration required balancing hardware interfaces, peripheral communication, firmware architecture, and user interaction throughout the design process.
 
 ---
 
