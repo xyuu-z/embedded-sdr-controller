@@ -2,14 +2,13 @@
 
 > Embedded control subsystem for a software-defined radio (SDR) transceiver, featuring a custom PCB, ATmega324PB firmware, and real-time frequency control.
 
+> **Hardware Design Course Project**
 
 > **Note:** Source code is not included due to University of Toronto academic integrity policies.
 
 ---
 
 ## Overview
-
-This project was completed as part of Hardware Design course.
 
 Our team designed and built the control subsystem for a software-defined radio (SDR) transceiver. The controller allows users to adjust the output frequency in real time using a rotary encoder while displaying system information on an LCD. It communicates with a Si5351 frequency synthesizer over I²C and provides control signals to downstream RF subsystems.
 
