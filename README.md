@@ -2,7 +2,6 @@
 
 > Embedded control subsystem for a software-defined radio (SDR) transceiver, featuring a custom PCB, ATmega324PB firmware, and real-time frequency control.
 
-> **University of Toronto | ECE295 Engineering Design Project**
 
 > **Note:** Source code is not included due to University of Toronto academic integrity policies.
 
