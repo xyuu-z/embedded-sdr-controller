@@ -101,16 +101,27 @@ The firmware was designed to provide responsive user interaction while maintaini
 
 ## Testing Result
 
-Amplitude_balance
+**Amplitude_balance**
+- Results: The amplitude balance is within -0.41 dB to +0.43 dB, which is well inside the ≤ 1 dB requirement.
 ![amp](image/amplitude_balance.png)
 
-Frequency output
+**Frequency output**
+- Results: Both LO outputs track the command frequency across the full range. No missing or stuck frequencies.<br>
+
 ![freq_out](image/freq_output.png)
 
-Frequency error
+**Frequency error**
+- Results: Only 5 out of 17 frequency points meet the "less than 1000 Hz" error requirement. The error is as high as 135 kHz at 13.5 MHz.
+- Cause analysis:
+    1. PLL not responding to I2C commands - CAT response returns old frequency, which suggests write failed.
+    2. Incorrect PLL register values - Some multipliers produce correct lock, others do not.
+    3. Loop filter unstable - Some frequencies fall outside PLL capture range.
+    4. Microcontroller UART/CAT parsing bug - Not all commands are parsed correctly.
+
 ![freq_error](image/freq_err.png)
 
-Phase shift
+**Phase shift**
+- Results: The phase difference ranges from -83° to -94°, which is well within the ±12.5° tolerance.
 ![phase](image/phase.png)
 
 ---
